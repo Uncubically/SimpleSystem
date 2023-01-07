@@ -1,0 +1,36 @@
+Thank You for Using James Chris Brown C++ Tutorial Program!
+      X    C    J    M    JC    K
+      /\   /\   /\   /\   /\   /\
+     <  > <  > <  > <  > <  > <  >
+      \/   \/   \/   \/   \/   \/
+
+---------------------------------------------------------------
+
+{\ /}
+(UwU)
+/ >  [Developers:]
+
+(/ OoO)/  Main Programmer: Xander Andrew M. Ritua (A.k.a: TNTzx)
+\(UwU \)  Designer: Cyrus M. Cavero (A.k.a: NoobGamer610)
+
+---------------------------------------------------------------
+
+{\ /}
+(OvO)
+/ >  [Assistant Programmers:]
+
+( OuO)>    1. Jherson M. Aguto
+( O-O)//== 2. Merlvin Jake Garcia
+( o-o).    3. Jess Christopher F. Macarilay
+( ^_^)/    4. Kristel A. Cachero
+
+---------------------------------------------------------------
+
+Instructed By: Ma'am Catleen Glo M. Feliciano
+
+Programming language used: C++
+IDEs used: Visual Studio Code, Dev-C++, CxxDroid
+
+Made By BSCS 1-1 Students
+
+
