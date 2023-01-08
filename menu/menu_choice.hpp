@@ -236,7 +236,7 @@ namespace ConsMenu {
                         Console::Color::blue,
                         true
                     );
-                    Console::Anim::WipeScreen(0.02, "███", wipe_specstyle).run();
+                    Console::Anim::WipeScreen(0.02, "███", wipe_specstyle, false).run();
 
 
                     sleep(1);

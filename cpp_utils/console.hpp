@@ -333,14 +333,17 @@ namespace Console {
             public:
                 Color::SpecStyle style{};
                 std::string border = "###";
+                bool is_fast = false;
 
                 WipeScreen(
                     float _duration_s,
                     std::string _border = "###",
-                    Color::SpecStyle _style = Color::SpecStyle()
+                    Color::SpecStyle _style = Color::SpecStyle(),
+                    bool _is_fast = false
                 ) : Animator(
                     _duration_s
                 ) {
+                    this->is_fast = _is_fast;
                     this->border = _border;
                     this->style = _style;
                 };
@@ -403,8 +406,12 @@ namespace Console {
 
 
                 void print_bundle(short int tl_column) {
-                    this->print_border(tl_column);
-                    this->print_blank(tl_column + 1);
+                    if (!this->is_fast) {
+                        this->print_border(tl_column);
+                        this->print_blank(tl_column + 1);
+                    } else {
+                        this->print_blank(tl_column);
+                    }
                 }
 
 
